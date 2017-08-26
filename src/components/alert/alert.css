@@ -1,0 +1,7 @@
+.alert {
+    position: relative;
+    padding: 6px 0px;
+    color: #E85F5F;
+    border-radius: 3px;
+    box-sizing: border-box;
+}

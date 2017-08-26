@@ -1,0 +1,7 @@
+.date-picker {
+    position: relative;
+
+    &__control {
+        display: block;
+    }
+}

@@ -1,0 +1,7 @@
+.input {
+    position: relative;
+
+    &__control {
+        display: block;
+    }
+}

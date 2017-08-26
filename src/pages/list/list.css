@@ -1,0 +1,30 @@
+.list {
+    &__user-list-head {
+        padding: 10px;
+    }
+
+    &__user-list-row {
+        padding: 10px;
+        cursor: pointer;
+
+        & + & {
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+        }
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    &__user-list-cell {
+        display: inline-block;
+        width: 200px;
+        vertical-align: top;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        &_short {
+            width: 100px;
+        }
+    }
+}
